@@ -74,18 +74,19 @@ h1{
     box-shadow: 0 0 10px;
     background: white;
     visibility: hidden;
+    
   
 }
 .open{
     visibility: visible;
 }
 .close{
-    font-size: 27px;
+    font-size: 30px;
     font-family: arial;
     text-decoration: none;
     font-weight: 600;
-    position: absolute;
-    margin-top: -75px;
+    position: fixed;
+    margin-top: 30px;
     margin-left: 30px;
     
 
@@ -97,6 +98,8 @@ h1{
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
+    margin-top: 20px;
+    position: relative;
     
  }
  #mybut2{
@@ -116,6 +119,7 @@ h1{
     text-align: center;
     border-radius: 20px;
     font-family: arial;
+    
  }
 
  /*media query*/
@@ -125,6 +129,7 @@ h1{
         overflow: hidden;
     }
     
+
  }
 
 
@@ -162,7 +167,7 @@ h1{
         
         box-shadow: 0 0 10px;
         background: white;
-        visibility: hidden;
+        visibility:hidden;
       
     }
     .open{
@@ -1316,7 +1321,7 @@ body{
         text-decoration: none;
         font-weight: 600;
         position:relative ;
-        margin-top: 0px;
+        margin-top: 50px;
         margin-left: 30px;
         
         

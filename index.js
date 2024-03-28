@@ -15,8 +15,13 @@ function myfunc(){
         document.getElementById('output').style.color="white"
         document.getElementById('output').style.background="green"
         document.getElementById('p1').innerHTML=`Hello ${fname} you are ${age} years,you are eligible to vote`;
-        document.querySelector('.close').style.marginTop='-125px'
-        document.getElementById('output').style.marginTop="20px"
+        document.querySelector('.close').style.position="absolute"
+        document.getElementById('output').style.marginTop="30px"
+        document.getElementById('output').style.position="relative"
+        document.querySelector('.close').style.marginTop="-180px"
+         
+        
+        
 
 
 
@@ -26,7 +31,7 @@ function myfunc(){
         document.getElementById('output').style.background="red"
         document.getElementById('output').style.marginTop="60px"
         document.getElementById('output').style.position="relative"
-        document.querySelector('.close').style.marginTop='-115px'
+        document.querySelector('.close').style.marginTop='-145px'
 
 }
 
